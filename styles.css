@@ -1,0 +1,44 @@
+@font-face {
+    font-family: digitalFont;
+    src: url(fonts/digital.otf   );
+}
+
+@font-face {
+    font-family: digitalFontAmPm;
+    src: url(fonts/digitalampm.ttf);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 670px;
+    font-weight: 1px;
+    margin-right: 100px;
+    height: 200px;
+    border-radius: 40px;
+    background: #3B3B35;
+
+}
+
+.hours, .minutes, .seconds{
+    font-size: 150px;
+    font-family: digitalfont;
+    color:  #33ff14;
+    display: inline;
+}
+
+.amorpm{
+    font-family: digitalFontAmPm;
+    color:  #33ff14;
+    display: inline;
+    margin-left: 15px;
+    font-size: 50px;
+}
