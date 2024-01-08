@@ -4,7 +4,7 @@ const digitalClock = () => {
      let hours = now.getHours();
      let minutes = now.getMinutes();
      let seconds = now.getSeconds();
-     let AmOrPm = hours >= 12 ? 'pn' : 'am';
+     let AmOrPm = hours >= 12 ? 'pm' : 'am';
      
      hours = (hours % 12) || 12;
 
