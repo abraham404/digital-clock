@@ -12,8 +12,6 @@ const digitalClock = () => {
      minutes = (minutes < 10) ? '0' + minutes : minutes;
      seconds = (seconds < 10) ? '0' + seconds : seconds;   
 
-
-
      document.querySelector('.hours').textContent = hours + ':';
      document.querySelector('.minutes').textContent = minutes + ':';
      document.querySelector('.seconds').textContent = seconds;
